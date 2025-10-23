@@ -1,6 +1,7 @@
 /*
- * Matrix transform override to fix swapped Shift/Control keys
- * Rows 2 and 3, column 0 are physically swapped on the PCB
+ * Matrix transform override to fix swapped Shift/Control keys on left half
+ * The physical keys at positions row 3 col 0 and row 4 col 0 are electrically swapped
+ * This swaps their mapping in the matrix transform
  */
 
 &default_transform {
